@@ -1,3 +1,17 @@
 html{
     background-color: #e0dcdc;
 }
+/* Center the container itself */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+    height: 100vh; /* Optional: to make the container full height */
+}
+
+/* Style the button */
+.centered-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
